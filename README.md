@@ -1,2 +1,18 @@
-# java-
+# Java implements Huffman compression decompressor
 使用java实现了使用赫夫曼编码方式实现解压和压缩文件
+srcFile为需要压缩的文件绝对路径
+dstFlie为压缩后文件的保存绝对路径
+
+unZipSrcFile为需要解压的文件绝对路径
+unZipDstFile为解压后文件的保存绝对路径
+
+压缩使用方法：
+在srcFile中添加绝对路径后，设置dstFlie解压绝对路径，运行即可在路径中找到相应的压缩文件
+
+解压使用方法：
+在unZipSrcFile中添加压缩文件绝对路径，设置unZipDstFile解压保存绝对路径，运行即可得到解压后的文件。
+
+文件中方法解释：
+unZipFile为完成解压的方法
+zipFile为完成压缩方法
+
